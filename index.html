@@ -57,7 +57,7 @@ window.onload = function () {
 		g = colordata[i+1];
 		b = colordata[i+2];
 		//converting the pixel into grayscale
-		gray = r*0.3 + g*0.59 + b*0.11; //http://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale
+		gray = r*0.2126 + g*0.7152 + b*0.0722; //http://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale
 		//overwriting the colordata array with grayscale values
 		//colordata[i] = colordata[i+1] = colordata[i+2] = gray;
 		
